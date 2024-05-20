@@ -2,7 +2,18 @@
     display: flex;
     flex-direction: column;
     width: 340px;
-    text-align: center;
-    align-items: center;
-    margin: auto;
+    margin-bottom: 16px;
+}
+
+.searchLabel {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.searchInput {
+    border: 1.5px solid grey;
+    border-radius: 4px;
+    padding: 4px 8px;
+    height: 25px;
 }
